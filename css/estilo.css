@@ -1,0 +1,69 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+}
+
+.fundo{
+    background: url("../images/estadio.jpg") no-repeat fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+.tamanhologo{
+    max-width: 200px;
+}
+
+.menu{
+    display: inline-block;
+    font-size: large;
+    margin-right: 50px;
+}
+
+.menu ul{
+    list-style: none;
+
+}
+
+.menu li{
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 0px 5px;
+    border: 3px solid #333;
+    margin-top: 5px;
+}
+
+a{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.escudos{
+    width: 150px;
+}
+
+/* Alinhar escudos */
+
+.distancia{
+    margin: 50px 0;
+}
+
+/*       
+COLOCAR NOS TIMES
+
+        box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+        
+*/
