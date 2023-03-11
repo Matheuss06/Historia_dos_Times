@@ -2,6 +2,13 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: #333;
+    padding: 10px;
+}
+
+.container{
+    background-color: rgb(219, 219, 219);
+    width: 90%;
+    margin: 0 auto;
 }
 
 .fundo{
@@ -50,10 +57,65 @@ a:hover{
     width: 150px;
 }
 
+
+.servico{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.servicos {
+    background: transparent;
+    perspective: 1000px;
+    margin-bottom: 50px;
+}
+  
+.virar {
+    background: transparent;
+    width: 480px;
+    height: 350px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: transform 600ms ease-in-out;
+}
+  
+.front, .back {
+    position: absolute;
+    color: white;
+    width: 480px;
+    height: 350px;
+    backface-visibility: hidden;
+}
+  
+.back {
+    background-color:  rgb(100, 145, 243);
+    transform: rotateY(180deg);
+    font-size: 15px;
+    text-align: center;
+    border-radius: 15%;
+}
+
+.servicos:hover .virar {
+    transform: rotateY(180deg);
+}
+  
+
+.img_servico{
+    width: 480px;
+    height: 350px;
+    border-radius: 15%;
+}
+
+
 /* Alinhar escudos */
 
 .distancia{
-    margin: 50px 0;
+    margin: 50px 0 0 0;
+}
+
+.teste{
+    flex-wrap: wrap;
 }
 
 /*       
@@ -67,3 +129,45 @@ COLOCAR NOS TIMES
         transform: translateX(-3px);
         
 */
+
+
+/* Carrosel */
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 100%;
+}
+
+.mySlides {
+  display: none;
+}
+
+.bannerdireita{
+    text-align: end;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 100%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
