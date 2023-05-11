@@ -1,7 +1,7 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #333;
+    background-color: #ff0000;
     padding: 10px;
 }
 
@@ -12,9 +12,7 @@ header{
 }
 
 .fundo{
-    background: url("../images/estadio.jpg") no-repeat fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
+    background-color: #333;
 }
 
 .logo{
@@ -33,14 +31,13 @@ header{
 
 .menu ul{
     list-style: none;
-
 }
 
 .menu li{
     display: inline-block;
     padding: 10px 10px;
     margin: 0px 5px;
-    border: 3px solid #333;
+    border: 3px solid #ff0000;
     margin-top: 5px;
 }
 
@@ -50,69 +47,19 @@ a{
 }
 
 a:hover{
-    color: rgb(255, 0, 0);
+    color: rgb(238, 255, 0);
 }
 
 .escudos{
     width: 150px;
+    filter: drop-shadow(10px #53a7ea);
+transform: translateX(-3px);
 }
 
 
-.servico{
-    display: flex;
-    justify-content: space-around;
-    gap: 50px;
-}
-
-.servicos {
-    background: transparent;
-    perspective: 1000px;
-    margin-bottom: 50px;
-}
-  
-.virar {
-    background: transparent;
-    width: 480px;
-    height: 350px;
-    position: relative;
-    transform-style: preserve-3d;
-    transform: rotateY(0deg);
-    transition: transform 600ms ease-in-out;
-}
-  
-.front, .back {
-    position: absolute;
-    color: white;
-    width: 480px;
-    height: 350px;
-    backface-visibility: hidden;
-}
-  
-.back {
-    background-color:  rgb(100, 145, 243);
-    transform: rotateY(180deg);
-    font-size: 15px;
-    text-align: center;
-    border-radius: 15%;
-}
-
-.servicos:hover .virar {
-    transform: rotateY(180deg);
-}
-  
-
-.img_servico{
-    width: 480px;
-    height: 350px;
-    border-radius: 15%;
-}
 
 
 /* Alinhar escudos */
-
-.distancia{
-    margin: 50px 0 0 0;
-}
 
 .teste{
     flex-wrap: wrap;
