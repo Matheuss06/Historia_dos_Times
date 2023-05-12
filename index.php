@@ -11,6 +11,12 @@
 
 <?php include 'header.html'; ?>
 
-</body>
+<div class="principal">
 
+
+
+</div>
+
+
+</body>
 </html>
