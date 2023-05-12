@@ -5,7 +5,7 @@ header{
     padding: 5px;
 }
 
-.container{
+.container1{
     background-color: rgb(219, 219, 219);
     width: 90%;
     margin: 0 auto;
@@ -41,7 +41,6 @@ header{
 }
 
 a{
-    text-decoration:none;
     color: rgb(255, 255, 255);
 }
 
@@ -76,24 +75,22 @@ a:hover{
     width: 100%;
   }
 
-
-
-.escudos{
-    width: 150px;
-    filter: drop-shadow(10px #53a7ea);
-transform: translateX(-3px);
+  #times{
+    gap: 25px;  
 }
 
-
-
-/*       
-COLOCAR NOS TIMES
-
-        box-shadow:
-                1px 1px #53a7ea,
-                2px 2px #53a7ea,
-                3px 3px #53a7ea;
-        -webkit-transform: translateX(-3px);
-        transform: translateX(-3px);
-        
-*/
+  .times {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(228, 227, 176);
+    border: #653737 4px solid;
+    width: 170px;
+    height: 170px;
+}
+  
+  .times img {
+    margin-top: 20px;
+    width: 130px;
+    height: 130px;
+}
