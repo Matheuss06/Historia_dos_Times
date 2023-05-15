@@ -16,9 +16,7 @@
 <!-- Container da página -->
 <div class="container1">
 
-<!-- Container dos times -->
-<?php include 'times.php';?>
-
 </div>
+
 </body>
 </html>
