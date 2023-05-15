@@ -16,6 +16,25 @@
 <!-- Container da página -->
 <div class="container1">
 
+    <section class="d-flex">
+
+        <div class="container_ball">
+            <div class="ball"></div>
+        </div>
+
+        <article class="w55">
+
+            <span class="text-center">
+                <h2 class="title">TESTE</h2>
+                <hr class="linha">
+            </span>
+
+            <span class="d-flex justify-content-center text-center" style="margin-top: 15px;">
+                <p style="color: white; width: 80%;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae cum alias voluptas labore, possimus ratione! Itaque explicabo ipsam eveniet voluptatum pariatur, voluptatibus nulla laboriosam, consequuntur, accusantium saepe nihil eligendi inventore.</p>
+            </span>
+        </article>
+    </section>
+
 </div>
 
 </body>
