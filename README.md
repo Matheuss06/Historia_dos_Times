@@ -1,0 +1,1 @@
+Esse projeto foi criado na intenção de treinar a linguagem JavaScript
