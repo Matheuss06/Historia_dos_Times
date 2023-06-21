@@ -13,6 +13,8 @@
 <!-- Header da página -->
 <?php include 'header.html'; ?>
 
+<!-- <img src="images/Banner_info.png" alt="" style="width: 100%; margin-top: 10px;"> -->
+
 <!-- Container da página -->
 <div class="container1">
 
@@ -24,16 +26,18 @@
 
         <article class="w55">
 
-            <span class="text-center">
-                <h2 class="title">TESTE</h2>
+            <span id="titulo_home" class="text-center">
+                <h2 class="title">FUTEBOL</h2>
                 <hr class="linha">
             </span>
 
             <span class="d-flex justify-content-center text-center" style="margin-top: 15px;">
-                <p style="color: white; width: 80%;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae cum alias voluptas labore, possimus ratione! Itaque explicabo ipsam eveniet voluptatum pariatur, voluptatibus nulla laboriosam, consequuntur, accusantium saepe nihil eligendi inventore.</p>
+                <p style="width: 80%; color: white; font-size: 16pt;">Bem-vindo ao nosso site de informações de times! Aqui você encontrará tudo o que precisa saber sobre o seu time favorito. Nossa plataforma é dedicada a fornecer aos torcedores estadios, camisas, titulos, historia e muito mais.</p>
             </span>
         </article>
     </section>
+
+
 
 </div>
 
