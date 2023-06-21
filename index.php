@@ -25,6 +25,16 @@
             <div class="ball"></div>
         </div>
 
+        <!-- Imagem do Cristiano Ronaldo -->
+        <span class="img-jogador1">
+            <img src="images/cr7.png" alt="" style="width: 50%;">
+        </span>
+
+        <!-- Imagem do Lionel Messi -->
+        <span class="img-jogador2">
+            <img src="images/messi.png" alt="" style="width: 50%;">
+        </span>
+
         <article class="w55">
 
             <span id="titulo_home" class="text-center">
@@ -57,8 +67,21 @@
                 <img src="images/basquetebol.png">
             </div>
         </div>
+
+        <!-- Imagem do Michael Jordan -->
+        <span class="img-jogador3">
+            <img src="images/jordan.png" alt="" style="width: 70%;">
+        </span>
+
+        <!-- Imagem do Lebron James -->
+        <span class="img-jogador4">
+            <img src="images/lebron.png" alt="" style="width: 35%;">
+        </span>
+
     </section>
 </div>
+
+<?php include 'footer.html'; ?>
 
 </body>
 </html>
