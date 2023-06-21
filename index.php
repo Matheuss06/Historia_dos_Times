@@ -13,7 +13,8 @@
 <!-- Header da página -->
 <?php include 'header.html'; ?>
 
-<!-- <img src="images/Banner_info.png" alt="" style="width: 100%; margin-top: 10px;"> -->
+<!-- Banner próvisorio, Carousel em breve -->
+<img src="images/Banner_info.png" alt="" style="width: 100%; margin-top: 10px;">
 
 <!-- Container da página -->
 <div class="container1">
@@ -32,13 +33,31 @@
             </span>
 
             <span class="d-flex justify-content-center text-center" style="margin-top: 15px;">
-                <p style="width: 80%; color: white; font-size: 16pt;">Bem-vindo ao nosso site de informações de times! Aqui você encontrará tudo o que precisa saber sobre o seu time favorito. Nossa plataforma é dedicada a fornecer aos torcedores estadios, camisas, titulos, historia e muito mais.</p>
+                <p style="width: 80%; font-size: 16pt;">Bem-vindo ao nosso site de informações de times! Aqui você encontrará tudo o que precisa saber sobre o seu time favorito. Nossa plataforma é dedicada a fornecer aos torcedores estadios, camisas, titulos, historia e muito mais.</p>
             </span>
         </article>
     </section>
 
+    <section class="d-flex" style="margin-top: 40px;">
 
+        <article class="w55">
 
+            <span id="titulo_home" class="text-center">
+                <h2 class="title">BASQUETE</h2>
+                <hr class="linha">
+            </span>
+
+            <span class="d-flex justify-content-center text-center" style="margin-top: 15px;">
+                <p style="width: 80%; font-size: 16pt;">O nosso site de informações também possui uma área para o basquete! Aqui você encontrará estadios, camisas, titulos, historia e muito mais.</p>
+            </span>
+        </article>
+
+        <div class="container_ball">
+            <div class="basketball">
+                <img src="images/basquetebol.png">
+            </div>
+        </div>
+    </section>
 </div>
 
 </body>
